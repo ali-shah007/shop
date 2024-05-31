@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { IoIosArrowDropleft } from "react-icons/io";
+import { IoIosArrowDropright } from "react-icons/io";
 
 function Slider() {
     const data = [
@@ -19,9 +21,9 @@ function Slider() {
 
     return (
         <div className='relative slider-container'>
-            <button className="absolute top-1/2 left-0 transform -translate-y-1/2 text-4xl text-blue-500 z-10" onClick={handlePrev}>Previous</button>
+            <IoIosArrowDropleft className="absolute top-1/2 left-10 transform -translate-y-1/2 text-8xl text-black z-10 cursor-pointer hover:scale-105 duration-200 hover:text-blue-500" onClick={handlePrev}>Previous</IoIosArrowDropleft>
             <img src={data[currentImageIndex]} alt="slider" className="absolute inset-0 w-full h-full object-cover" />
-            <button className="absolute top-1/2 right-0 transform -translate-y-1/2 text-4xl text-blue-500" onClick={handleNext}>Next</button>
+            <IoIosArrowDropright className="absolute top-1/2 right-10 transform -translate-y-1/2 text-8xl text-black cursor-pointer hover:scale-105 duration-200 hover:text-blue-500" onClick={handleNext}>Next</IoIosArrowDropright>
         </div>
     );
 }
