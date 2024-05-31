@@ -21,9 +21,9 @@ function Slider() {
 
     return (
         <div className='relative slider-container'>
-            <IoIosArrowDropleft className="absolute top-1/2 left-10 transform -translate-y-1/2 text-8xl text-black z-10 cursor-pointer hover:scale-105 duration-200 hover:text-blue-500" onClick={handlePrev}>Previous</IoIosArrowDropleft>
+            <IoIosArrowDropleft className="absolute top-3/4 left-10 transform -translate-y-1/2 text-8xl text-black z-10 cursor-pointer hover:scale-105 duration-200 hover:text-blue-500" onClick={handlePrev}>Previous</IoIosArrowDropleft>
             <img src={data[currentImageIndex]} alt="slider" className="absolute inset-0 w-full h-full object-cover" />
-            <IoIosArrowDropright className="absolute top-1/2 right-10 transform -translate-y-1/2 text-8xl text-black cursor-pointer hover:scale-105 duration-200 hover:text-blue-500" onClick={handleNext}>Next</IoIosArrowDropright>
+            <IoIosArrowDropright className="absolute top-3/4 right-10 transform -translate-y-1/2 text-8xl text-black cursor-pointer hover:scale-105 duration-200 hover:text-blue-500" onClick={handleNext}>Next</IoIosArrowDropright>
         </div>
     );
 }
