@@ -17,5 +17,5 @@ code {
     monospace;
 }
 .slider-container {
-  height: calc(100vh - 80px); /* Adjust as needed */
+  height: calc(100vh - 50px); /* Adjust as needed */
 }
