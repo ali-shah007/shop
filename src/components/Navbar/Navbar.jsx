@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom'
 
 function Navbar() {
   return (
-    <div className="flex justify-between items-center w-full py-3 text-gray-800 px-4 text-lg">
+    <div className=" hidden lg:flex justify-between items-center w-full py-3 text-gray-800 px-4 text-lg">
       <div className="flex items-center gap-5">
         {/* Start Section */}
         <div className='flex justify-center items-center'>
@@ -35,7 +35,7 @@ function Navbar() {
       </div>
       <div className="flex justify-center items-center">
         {/* Middle Section */}
-        <div className='text-[30px] font-raleway'>
+        <div className='text-[30px] font-raleway rounded-full text-blue-500 font-bold'>
           <Link to='/'>AliStore</Link>
         </div>
       </div>
@@ -57,8 +57,8 @@ function Navbar() {
           <MdOutlineSearch className='w-7 h-7 cursor-pointer hover:scale-105 duration-200' />
           <CiUser className='w-7 h-7 cursor-pointer hover:scale-105 duration-200' />
           <CiHeart className='w-7 h-7 cursor-pointer hover:scale-105 duration-200' />
-          <div className="flex relative">
-            <LuShoppingCart className='w-7 h-7 cursor-pointer hover:scale-105 duration-200' />
+          <div className="flex relative cursor-pointer hover:scale-105 duration-200">
+            <LuShoppingCart className='w-7 h-7 ' />
             <span className="w-5 h-5 rounded-full bg-blue-500 text-white flex items-center justify-center absolute top-0 right-0 -mt-1 -mr-3 text-sm">0</span>
           </div>
         </div>
