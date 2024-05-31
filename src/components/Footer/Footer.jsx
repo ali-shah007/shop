@@ -10,31 +10,31 @@ function Footer() {
           {/* Top */}
           <div className='flex w-1/2 gap-60'>
             {/* Left side */}
-            <div className='flex flex-col justify-center text-left'>
-              <Link to='/'><h1 className='text-lg font-medium text-[#555]'>Categories</h1></Link>
-              <Link to='/'>Categories</Link>
-              <Link to='/'>Categories</Link>
-              <Link to='/'>Categories</Link>
-              <Link to='/'>Categories</Link>
-              <Link to='/'>Categories</Link>
+            <div className='flex flex-col justify-center text-left '>
+              <span to='/'><h1 className='text-lg font-medium text-[#555]'>Categories</h1></span>
+              <Link to='/' className=' hover:text-blue-500 hover:scale-105 duration-200'>Categories</Link>
+              <Link to='/' className=' hover:text-blue-500 hover:scale-105 duration-200'>Categories</Link>
+              <Link to='/' className=' hover:text-blue-500 hover:scale-105 duration-200'>Categories</Link>
+              <Link to='/' className=' hover:text-blue-500 hover:scale-105 duration-200'>Categories</Link>
+              <Link to='/' className=' hover:text-blue-500 hover:scale-105 duration-200'>Categories</Link>
             </div>
-            <div className='flex flex-col justify-center items-center text-left'>
-              <Link to='/'><h1 className='text-lg font-medium text-[#555]'>Links</h1></Link>
-              <Link to='/'>Links</Link>
-              <Link to='/'>Links</Link>
-              <Link to='/'>Links</Link>
-              <Link to='/'>Links</Link>
-              <Link to='/'>Links</Link>
+            <div className='flex flex-col justify-center item-center text-left'>
+              <span to='/'><h1 className='text-lg font-medium text-[#555]'>Quick Links</h1></span>
+              <Link to='/' className=' hover:text-blue-500 hover:scale-105 duration-200'>Links</Link>
+              <Link to='/' className=' hover:text-blue-500 hover:scale-105 duration-200'>Links</Link>
+              <Link to='/' className=' hover:text-blue-500 hover:scale-105 duration-200'>Links</Link>
+              <Link to='/' className=' hover:text-blue-500 hover:scale-105 duration-200'>Links</Link>
+              <Link to='/' className=' hover:text-blue-500 hover:scale-105 duration-200'>Links</Link>
             </div>
           </div>
           <div className='flex w-1/2 gap-10'>
             {/* Right side */}
             <div className='flex flex-col text-center'>
-              <Link to='/'><h1 className='text-lg font-medium text-[#555] text-left'>About</h1></Link>
+              <span className='text-lg font-medium text-[#555] text-left'>About</span>
               <p className="text-justify" style={{ lineHeight: '1.6' }}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam error nemo placeat facere porro? Amet facilis delectus minus quibusdam dicta odit porro autem quas, ut cum optio minima. Repudiandae accusamus totam reprehenderit expedita odit quaerat autem quia quas quam voluptatum!</p>
             </div>
             <div className='flex flex-col text-center'>
-              <Link to='/'><h1 className='text-lg font-medium text-[#555] text-left'>Contact</h1></Link>
+              <span className='text-lg font-medium text-[#555] text-left'>Contact</span>
               <p className="text-justify" style={{ lineHeight: '1.6' }}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam error nemo placeat facere porro? Amet facilis delectus minus quibusdam dicta odit porro autem quas, ut cum optio minima. Repudiandae accusamus totam reprehenderit expedita odit quaerat autem quia quas quam voluptatum!</p>
             </div>
           </div>
